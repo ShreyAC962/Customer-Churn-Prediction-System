@@ -19,4 +19,3 @@ def preprocess(df):
     y = df["Chun"] # Selects only data from "Churn" column of the original (DataFrame- df)
 
     return train_test_split(X, y, test_size=0.2, random_state=42)
-giev on rl oine as git commit
