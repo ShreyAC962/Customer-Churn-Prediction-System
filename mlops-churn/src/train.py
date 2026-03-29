@@ -17,7 +17,7 @@ with mlflow.start_run():
     mlflow.log_param("n_estimators", 100)
     mlflow.log_metrics("accuracy", accuracy)
 
-    mlflow.sklearn.log_model(model, "model")
+    mlflow.sklearn.log_model(model, "model", registered_model_name="churn_prediction")
 
     print(f"Accuracy: {accuracy}")
 
