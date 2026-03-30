@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Data Files (IMPORTANT)
+# =========================
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# =========================
+# ML Models & Artifacts
+# =========================
+models/
+mlruns/
+*.pkl
+*.joblib
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# =========================
+# Docker
+# =========================
+*.dockerignore
+
+# =========================
+# System Files
+# =========================
+Thumbs.db
